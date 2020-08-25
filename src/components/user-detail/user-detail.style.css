@@ -1,0 +1,23 @@
+.link{
+    margin:auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    color:rgb(142, 175, 206)
+    
+}
+.link h2:hover{
+    color:rgb(23, 45, 75);
+}
+
+
+  
+ 
+ 
+.name{
+     font-size:35px;
+     color:rgb(38, 94, 121)
+ }
+ 

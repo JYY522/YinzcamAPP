@@ -1,0 +1,41 @@
+.follow {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+   
+   
+    
+  }
+  .follow td, tr {
+    border: 1px solid #7790a1;
+    text-align: center;
+    padding: 8px;
+    width:50%;
+    font-size:1.2rem;
+  }
+  .image{
+      border-radius:50%;
+      width:90px;
+      height:90px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .follow th { 
+        display:none;
+    }
+    .follow tbody tr td{
+        display:block;
+        width:94%
+    }
+    .follow {
+        margin-bottom:30px;
+    }
+    .follow td{
+        position:relative;
+    }
+
+
+}
+ 
